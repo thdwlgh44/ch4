@@ -10,14 +10,11 @@ import java.util.*;
 
 @Service
 public class CommentServiceImpl implements CommentService {
-    //인스턴스 주입
-//    @Autowired
     BoardDao boardDao;
-//    @Autowired
     CommentDao commentDao;
 
     //생성자 주입
-    @Autowired
+//    @Autowired
     public CommentServiceImpl(CommentDao commentDao, BoardDao boardDao) {
         this.commentDao = commentDao;
         this.boardDao = boardDao;

@@ -13,7 +13,7 @@ public class CommentDto {
     private Date up_date;
 
     public CommentDto() {}
-    public CommentDto(Integer bno, Integer pcno, String comment, String commenter) {
+    public CommentDto(Integer bno, Integer pcno, String comment, String commenter) { //cno autoincrement, Date default
         this.bno = bno;
         this.pcno = pcno;
         this.comment = comment;
